@@ -1,0 +1,54 @@
+/*
+Theme Name: shal3v
+Theme URI: http://shal3v.com
+Author: Shalev Levi
+Author URI: http://shal3v.com
+Description: Very simple skeleton theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: minimal, elegant, simple
+Text Domain: shal3v-theme
+*/
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@400;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    margin: 0;
+}
+
+h1.site-title {
+    margin: 0;
+}
+
+a, p, h1, h2, h3, h4, h5, h6, li {
+    font-family: 'Space Mono','Miriam Libre',monospace;
+}
+a {
+    color: #000;
+}
+
+header#masthead {
+    display: flex;
+    max-width: 1000px;
+    align-content: center;
+    margin: 40px auto;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+nav#site-navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.site-branding {
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+div#content {
+    max-width: 1000px;
+    margin: auto;
+}
